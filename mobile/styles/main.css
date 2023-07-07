@@ -1,12 +1,7 @@
-/* 임시 고딕 웹폰트 import */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
-
 html {
   /* 색상 변수 지정 */
   --main-orange: #FEAC18;
-  --main-black: #000000;
-  /* 임시 고딕 웹폰트 전역 사용 지정 */
-  font-family: 'Noto Sans KR', sans-serif;
+  --main-black: #101010;
 }
 
 .main {
@@ -14,8 +9,8 @@ html {
 }
 
 .brand-logo {
-  height: 25vh;
-  margin: 5vh auto;
+  height: 20vh;
+  margin: 6vh auto;
   object-fit: cover;
 }
 
@@ -32,13 +27,13 @@ html {
 
 .to-go:hover {
   cursor: pointer;
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .to-go h1 {
   color: var(--main-black);
-  font-size: 2.2em;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .for-here {
@@ -54,11 +49,21 @@ html {
 
 .for-here:hover {
   cursor: pointer;
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .for-here h1 {
   color: var(--main-orange);
-  font-size: 2.2em;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+}
+
+.copyright {
+  margin: 5vh 0;
+  font-size: 12px;
+  color: #8c8c8c;
 }
