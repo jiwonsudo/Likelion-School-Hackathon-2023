@@ -14,6 +14,11 @@ html {
 	font: inherit;
 	vertical-align: baseline;
   font-family: 'Pretendard';
+
+  /* 공통 색상 변수 지정 */
+  /* --main-orange: #FEAC18;
+  --main-black: #101010;
+  --light-gray: #F4F4F4; */
 }
 
 body, div, span, applet, object, iframe,

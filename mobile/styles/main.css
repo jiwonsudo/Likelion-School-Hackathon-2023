@@ -1,14 +1,8 @@
-html {
-  /* 색상 변수 지정 */
-  --main-orange: #FEAC18;
-  --main-black: #101010;
-}
-
 .main {
   text-align: center;
 }
 
-.brand-logo {
+.main-logo {
   height: 20vh;
   margin: 6vh auto;
   object-fit: cover;
@@ -20,7 +14,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--main-orange);
+  background-color: #FEAC18;
   border-radius: 15px;
   transition: all 0.1s linear;
 }
@@ -31,7 +25,7 @@ html {
 }
 
 .to-go h1 {
-  color: var(--main-black);
+  color: #101010;
   font-size: 40px;
   font-weight: 600;
 }
@@ -42,7 +36,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--main-black);
+  background-color: #101010;
   border-radius: 15px;
   transition: all 0.1s linear;
 }
@@ -53,7 +47,7 @@ html {
 }
 
 .for-here h1 {
-  color: var(--main-orange);
+  color: #FEAC18;
   font-size: 40px;
   font-weight: 600;
 }
