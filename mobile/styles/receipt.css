@@ -81,6 +81,12 @@ header {
   text-align: left;
 }
 
+.order-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .order-list li:not(:first-child, :last-child) {
   padding: 10px 0;
 }
@@ -93,9 +99,11 @@ header {
 
 .main-bottom-button {
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
-  height: 90px;
+  height: 10vh;
+  max-height: 100px;
+  min-height: 60px;
   background-color: #FEAC18;
   display: flex;
   justify-content: center;

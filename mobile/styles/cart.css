@@ -1,6 +1,6 @@
 .total-menu-selection-section {
   width: 100%;
-  height: 90vh;
+  height: 60px;
   margin-top: 2vh;
   border-radius: 40px 40px 0 0;
   background-color: #F4F4F4;
@@ -21,11 +21,102 @@
   background-color: #FEAC18;
 }
 
+.menu-container {
+  width: 100%;
+}
+
+.menu {
+  width: 100%;
+  height: 100px;
+  margin: 3px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F4F4F4;
+}
+
+.menu-image-container {
+  height: 80%;
+  margin-left: 5vw;
+}
+
+.menu-detail-button {
+  height: 100%;
+  border: none;
+  background-color: transparent;
+}
+
+.menu-detail-button:hover {
+  cursor: pointer;
+}
+
+.menu-detail-button img {
+  height: 100%;
+}
+
+.menu-info {
+  width: 40vw;
+  height: 65%;
+  position: relative;
+}
+
+.menu-info h1 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.menu-info h2 {
+  position: absolute;
+  bottom: 0;
+}
+
+.quantity-selector {
+  width: 70px;
+  padding: 5px 10px;
+  margin-right: 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d6d5d5;
+  border-radius: 20px;
+}
+
+.quantity-selector button, .confirm-selector button {
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+}
+
+.quantity-selector button:hover {
+  cursor: pointer;
+}
+
+.confirm-selector {
+  width: 70px;
+  padding: 5px 10px;
+  margin-right: 5vw;
+  margin-top: 8px;
+  background-color: #FEAC18;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.confirm-selector button {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.confirm-selector button:hover {
+  cursor: pointer;
+}
+
 .main-bottom-button {
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
-  height: 90px;
+  height: 10vh;
+  max-height: 100px;
+  min-height: 60px;
   background-color: #FEAC18;
   display: flex;
   justify-content: center;
@@ -44,4 +135,12 @@
 .main-bottom-button-content-container p {
   height: 100%;
   margin: 0 3px;
+}
+
+.quantity-badge {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  background-color: blue;
 }

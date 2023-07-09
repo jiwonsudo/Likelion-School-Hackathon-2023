@@ -1,8 +1,12 @@
 .main-navbar {
   width: 100%;
   height: 8vh;
+  position: sticky;
+  top: 0px;
   display: flex;
   justify-content: space-between;
+  background-color: #FFFFFF;
+  opacity: 90%;
 }
 
 .back-button-container {
