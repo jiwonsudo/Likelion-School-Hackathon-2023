@@ -96,7 +96,7 @@
   padding: 5px 10px;
   margin-right: 5vw;
   margin-top: 8px;
-  background-color: #FEAC18;
+  background-color: #fe5d18;
   border-radius: 20px;
   text-align: center;
 }
@@ -104,6 +104,7 @@
 .confirm-selector button {
   font-size: 16px;
   font-weight: 500;
+  color: #FFFFFF;
 }
 
 .confirm-selector button:hover {
@@ -135,12 +136,4 @@
 .main-bottom-button-content-container p {
   height: 100%;
   margin: 0 3px;
-}
-
-.quantity-badge {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 0;
-  background-color: blue;
 }
