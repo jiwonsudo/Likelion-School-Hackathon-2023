@@ -81,7 +81,7 @@
   border-radius: 20px;
 }
 
-.quantity-selector button, .confirm-selector button {
+.quantity-selector button, .delete-selector button {
   font-size: 16px;
   border: none;
   background-color: transparent;
@@ -91,7 +91,7 @@
   cursor: pointer;
 }
 
-.confirm-selector {
+.delete-selector {
   width: 70px;
   padding: 5px 10px;
   margin-right: 5vw;
@@ -101,13 +101,13 @@
   text-align: center;
 }
 
-.confirm-selector button {
+.delete-selector button {
   font-size: 16px;
   font-weight: 500;
   color: #FFFFFF;
 }
 
-.confirm-selector button:hover {
+.delete-selector button:hover {
   cursor: pointer;
 }
 
