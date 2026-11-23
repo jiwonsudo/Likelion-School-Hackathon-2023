@@ -2,7 +2,7 @@
 
 # 🏆 사자의 야심작 — QR 주문 서비스 (손님 화면)
 
-**멋쟁이사자처럼 대학 11기 상명대 교내 해커톤 프로젝트**
+🏆 **멋쟁이사자처럼 대학 11기 상명대 교내 해커톤 1위**
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
@@ -16,7 +16,7 @@
 
 ## 소개
 
-2023년 여름, 상명대학교에서 열린 멋쟁이사자처럼 교내 해커톤에서 만든 **음식점 QR 주문 웹서비스**입니다. 저는 손님이 테이블의 QR 코드를 찍고 들어와 주문하는 **모바일 클라이언트 화면**을 맡았습니다.
+2023년 여름, 상명대학교에서 열린 멋쟁이사자처럼 교내 해커톤에서 **1위**를 차지한 **음식점 QR 주문 웹서비스 「QRAZY」**입니다. 저는 손님이 테이블의 QR 코드를 찍고 들어와 주문하는 **모바일 클라이언트 화면**을 맡았습니다.
 
 This repository contains the customer-facing mobile view I built for a QR-code restaurant ordering service at the LikeLion campus hackathon (Sangmyung Univ., summer 2023).
 
