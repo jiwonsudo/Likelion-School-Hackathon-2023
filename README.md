@@ -1,12 +1,34 @@
-# Likelion-School-Hackathon-2023
+<div align="center">
 
-By Jiwon Jeong
+# 🏆 사자의 야심작 — QR 주문 서비스 (손님 화면)
 
-이 Repository는 상명대학교에서 2023년 여름방학에 진행한 LikeLion 교내 해커톤 중 제가 제작한 파일을 업로드하기 위해 만들어졌습니다.
+**멋쟁이사자처럼 대학 11기 상명대 교내 해커톤 프로젝트**
 
-이 Repo에는, 음식점에서 QR 코드를 통해 주문하는 웹서비스 제작에서 제가 제작을 맡은 파트인 음식점 고객의 클라이언트 뷰가 저장되어 있습니다.
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript">
 
+<img src="docs/screenshots/main.webp" width="220" alt="포장/매장 선택">
+<img src="docs/screenshots/menu.webp" width="220" alt="메뉴">
+<img src="docs/screenshots/cart.webp" width="220" alt="장바구니">
 
-This Repository was created to upload the files I created during the LikeLion campus hackathon held at Sangmyung University during the summer vacation of 2023.
+</div>
 
-In this repo, the client view of the restaurant customer, which is the part I was responsible for producing, is stored in the production of a web service that orders through a QR code at a restaurant.
+## 소개
+
+2023년 여름, 상명대학교에서 열린 멋쟁이사자처럼 교내 해커톤에서 만든 **음식점 QR 주문 웹서비스**입니다. 저는 손님이 테이블의 QR 코드를 찍고 들어와 주문하는 **모바일 클라이언트 화면**을 맡았습니다.
+
+This repository contains the customer-facing mobile view I built for a QR-code restaurant ordering service at the LikeLion campus hackathon (Sangmyung Univ., summer 2023).
+
+## 화면 흐름
+
+| 화면 | 파일 | 내용 |
+|---|---|---|
+| 시작 | `mobile/main.html` | 포장하기 / 먹고가기 선택 |
+| 메뉴 | `mobile/menu.html` | 카테고리별 메뉴 · 수량 선택 · 담기 |
+| 장바구니 | `mobile/cart.html` | 담은 메뉴 확인 · 수량 변경 |
+| 영수증 | `mobile/receipt.html` | 주문 완료 내역 |
+
+## 실행
+
+`mobile/main.html`을 모바일 화면 크기로 열면 됩니다.
